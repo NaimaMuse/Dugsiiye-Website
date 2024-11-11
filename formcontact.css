@@ -1,0 +1,144 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(237, 237, 237);
+}
+
+.hero {
+    background-color: white;
+    justify-content: space-around;
+}
+
+.hero img {
+    height: 70px;
+    margin-left: 60px;
+
+}
+
+.hero a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+
+
+}
+
+.hero .rows {
+    justify-content: space-around;
+    display: flex;
+}
+
+.rows .box-2 {
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(23, 146, 103);
+    color: white;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-right: 20px;
+
+}
+
+.rows a {
+    margin-top: 20px;
+}
+.contact-form{
+    display: flex;
+}
+.color {
+    background-color: rgb(37, 163, 106);
+    height: 400px;
+    margin-top:100px;
+    margin-left: 200px;
+    width: 300px;
+    color: white;
+    padding: 20px;
+
+}
+.color h2{
+    font-size: 15px;
+    margin: 20px;
+
+    
+}
+
+.color p{
+    font-size: 15px;
+    
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact1{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    margin-top:100px;
+    width: 300px;
+    color: white;
+    padding: 20px;
+    
+}
+
+.form input{
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 10px;
+    width: 200px;
+}
+.form label{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.form button{
+    margin-top: 50px;
+    padding: 10px 70px;
+    border-radius: 10px;
+    border: none;
+    font-size: 10px;
+    background-color: rgb(17, 138, 106);
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

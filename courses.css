@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient( rgba(33, 97, 78, 0.7), rgba(34, 92, 86, 0.7)), url(/img/notes.avif) ;
+    
+}
+.hero{
+    background-color: white;
+}
+.hero img{
+    height: 70px;
+    margin-left: 60px;
+
+}
+.img-header h1{
+    color: white;
+    font-size: 40px;
+margin-left: 150px;
+margin-top: 90px;
+}
+.img-header p{
+    color: white;
+    font-size: 0px;
+margin-left: 150px;
+margin-top: 90px;
+}
+.hero a{
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+
+    
+}
+.imag{
+    width: 1000px;
+    height: 30px;
+    margin-left: 100px;
+}
+.hero .rows{
+    justify-content: space-around;
+    display: flex;
+
+}
+.sing-in:hover{
+    color: black;
+}
+.rows .sing{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    background-color:rgb(29, 158, 113);
+    width: 60px;
+    height: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    margin-top: 19px;
+}
+.rows .sing:hover{
+    background-color:rgb(26, 127, 92);
+}
+
+.rows a{
+    margin-top: 20px;
+}
+#courses{
+    background-color: white;
+}
+.rowes1{
+    display: flex;
+    margin-left: 145px;
+
+}
+.rowes2{
+    display: flex;
+    margin-left: 145px;
+
+}
+
+.colom1,.colom2,.colom3,.colom4,.colom5,.colom6 {
+    height: 340px;
+    width: 290px;
+background-color: rgb(246, 246, 246);
+border-radius: 20px;
+margin: 10px;
+}
+.colom4,.colom5,.colom6{
+    height: 340px;
+    width: 290px;
+background-color: rgb(246, 246, 246);
+border-radius: 20px;
+margin: 10px;
+margin-bottom: 100px;
+}
+.colom1 img,.colom2 img,.colom3 img, .colom4 img,.colom5 img,.colom6 img{
+    height: 190px;
+    width: 290px;
+    
+    
+}
+
+
+.colom1 button,.colom2 button,.colom3 button,.colom4 button,.colom5 button,.colom6 button{
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(40, 196, 87);
+    width: 87px;
+    height: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+#courses h5{
+    color: green;
+    text-align: center;
+    font-size: 12px;
+    font-family: Poppins,sans-serif;
+
+
+}
+#courses h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Poppins,sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#courses p{
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins,sans-serif;
+    margin-bottom: 20px;
+    color: #5e5b5b;
+
+}
+
+#courses h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding-left: 8px;
+}
+#courses h6{
+    margin-bottom: 10px;
+    font-size: 10px;
+    padding-left: 8px;
+
+
+}
+
+#courses h4{
+    font-size: 13px;
+    padding-left: 8px;
+    color:  rgb(59, 141, 83);
+
+}

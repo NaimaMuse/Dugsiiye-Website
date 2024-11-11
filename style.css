@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgb(31, 31, 59) , rgb(133, 125, 125));
+}
+header{
+    background-image: linear-gradient(to right, rgb(40, 40, 72) , rgb(122, 117, 117));
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+
+
+}
+
+.hero{
+    display: flex;
+}
+.hero img{
+    margin-left: 8px;
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: ubuntu;
+    padding: 17px;
+}
+.hero ul {
+    display: flex;
+    margin-left: 100px;
+}
+.hero ul li{
+    list-style: none;
+    text-align: center;
+    margin-top: 23px;
+}
+.regis{
+    display: flex;
+
+
+}
+.regis ul li a{
+    list-style: none;
+    color: white;
+    
+}
+.singup{
+    height: 30px;
+    width: 85px;
+    padding-top: 2px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(23, 146, 103);
+    color: white;
+    font-size: 10px;
+    
+}
+
+    
+
+
+.singup:hover{
+    background-color: rgb(18, 84, 60);
+}
+.singin:hover{
+    color: black;
+}
+.section-two{
+    text-align: center;
+    margin-top: 150px;
+}
+.section-two h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-two p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 50px;
+
+}
+ 
+.get{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 30px ;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.about{
+    background-color: rgb(34, 133, 101);
+    border-radius: 5px;
+    padding: 10px 30px ;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.review{
+    background-color: white;
+
+}
+.review h3{
+    text-align: center;
+    color: rgb(8, 122, 80);
+font-size: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-top: 60px;
+}
+.review h1{
+margin-left: 400px;
+font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.imagees img{
+
+    margin-left: 290px;
+    position: absolute;
+    
+    }
+
+.review h6{
+    text-align: center;
+    color: rgb(93, 93, 93);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: light;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.row1,.row2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.row1 img{
+        align-items: center;
+        position: absolute;
+        top: 760px;
+        margin-left: 80px;
+}
+.col4 img{
+    align-items: center;
+        position: absolute;
+        top: 760px;
+        margin-left: 80px;
+        width: 40px;
+}
+.col5 img{
+    align-items: center;
+        position: absolute;
+        top: 760px;
+        margin-left: 80px;
+        width: 40px;
+}
+.row2 img{
+    align-items: center;
+    position: absolute;
+    top: 1009px;
+    margin-left: 70px;
+    width: 40px;
+}
+.col8 img{
+    align-items: center;
+    position: absolute;
+    top: 999px;
+    margin-left: 70px;
+    width: 60px;
+}
+.col3,.col4,.col5{
+    margin: 10px;
+    padding:40px 40px;
+    margin-top: 20px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+
+
+}
+
+.col3 h4,.col4 h4,.col5 h4,.col6 h4,.col7 h4,.col8 h4{
+    font-size: 15px;
+    margin-bottom: 7px;
+
+}
+.col3 p,.col4 p,.col5 p,.col6 p,.col7 p,.col8 p {
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+.col6,.col7,.col8{
+    margin: 10px;
+    padding:40px 40px;
+    margin-top: 20px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+    margin-bottom: 120px;
+
+}
+
+
+
+
+#courses{
+    background-color: white;
+}
+.rowes1{
+    display: flex;
+    margin-left: 145px;
+
+}
+.rowes2{
+    display: flex;
+    margin-left: 145px;
+
+}
+
+.colom1,.colom2,.colom3,.colom4,.colom5,.colom6 {
+    height: 340px;
+    width: 290px;
+background-color: rgb(246, 246, 246);
+border-radius: 20px;
+margin: 10px;
+box-shadow: 1px 1px 1px 1px rgba(246, 246, 246), 0.493,0 20px  rgba(233, 234, 234, 0.493),0 20px  rgba(251, 252, 252, 0.493)
+
+}
+.colom4,.colom5,.colom6{
+    height: 340px;
+    width: 290px;
+background-color: rgb(246, 246, 246);
+border-radius: 20px;
+margin: 10px;
+margin-bottom: 100px;
+box-shadow: 1px 1px 1px 1px rgba(246, 246, 246), 0.493,0 20px  rgba(233, 234, 234, 0.493),0 20px  rgba(251, 252, 252, 0.493)
+}
+.colom1 img,.colom2 img,.colom3 img, .colom4 img,.colom5 img,.colom6 img{
+    height: 190px;
+    width: 290px;
+    border-radius: 10px 0px;
+    
+    
+}
+
+
+.colom1 button,.colom2 button,.colom3 button,.colom4 button,.colom5 button,.colom6 button{
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(40, 196, 87);
+    width: 87px;
+    height: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+#courses h5{
+    color: green;
+    text-align: center;
+    font-size: 12px;
+    font-family: Poppins,sans-serif;
+
+
+}
+#courses h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Poppins,sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#courses p{
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins,sans-serif;
+    margin-bottom: 20px;
+    color: #5e5b5b;
+
+}
+
+#courses h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding-left: 8px;
+}
+#courses h6{
+    margin-bottom: 10px;
+    font-size: 10px;
+    padding-left: 8px;
+
+
+}
+
+#courses h4{
+    font-size: 13px;
+    padding-left: 8px;
+    color:  rgb(59, 141, 83);
+
+}
+.central{
+    background-color: white;
+    display: flex;
+}
+.Languages{
+    margin-left: 200px;
+}
+.images-1,.images-2,.images-3{
+    display: flex;
+}
+
+.images-1 img,.images-2 img,.images-3 img{
+    width: 110px;
+    height: 100px;
+    display: flex;
+    
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+    padding: 20px 20px;
+    background-color: rgb(239, 239, 239);
+    margin: 4px;
+    border-radius: 6px;
+    top: 40px;
+}
+    
+.img5,.img6{
+    margin-bottom: 100px;
+}
+
+.text h1{
+    margin-left: 150px;
+    color: rgb(1, 1, 1);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 50px;
+
+}
+.text p{
+    color: rgb(101, 98, 98);
+    font-size: 14px;
+    margin-left: 150px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+
+}
+ .buttons ul{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    color: white;
+    font-size: 17px;
+    margin-left: 150px;
+}
+
+.buttons li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 10px;
+
+
+}
+.btn-1 {
+    background-color: rgb(33, 143, 92);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin:  10px;
+
+
+
+}
+.cont {
+    background-color: rgb(33, 143, 92);
+    padding: 11px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+
+}
+.cont:hover{
+    background-color: rgb(27, 112, 72);
+}
+.btn-1:hover{
+    background-color: rgb(27, 112, 72);
+
+}
+
+.vision{
+    background-color: white;
+
+}
+.vision h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vision p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #5e5b5b;
+margin-top: 15px;
+}
+
+.comment{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+.comment img{
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    padding: 20px;
+
+}
+.comment h4{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+}
+.name p{
+    padding: 0px;
+    margin-right: 220px;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+
+.quesions{
+    display: flex;
+    background-color: white;
+}
+.main-quesion{
+    margin: 50px;
+    margin-left: 200px;
+    
+
+}
+.main-quesion h1{
+       font-size: 30px;
+       font-weight: bolder;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-bottom: 10px;
+}
+ .main-quesion p{
+    font-size: 13px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }   
+.answer1 h3{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 19px;
+    padding-top: 30px;
+}
+.answer1 p{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.footer{
+    background-color: white;
+    display: flex;
+    padding: 40px;
+
+}
+
+
+
+.footer .first-image img{
+    height: 14px;
+    margin-left: 100px;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

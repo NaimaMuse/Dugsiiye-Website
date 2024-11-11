@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(237, 237, 237);
+}
+
+.hero {
+    background-color: white;
+}
+
+.hero img {
+    height: 70px;
+    margin-left: 60px;
+
+}
+
+.hero a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+
+
+}
+
+.hero .rows {
+    justify-content: space-around;
+    display: flex;
+}
+
+.rows .box-2 {
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(23, 146, 103);
+    color: white;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-right: 20px;
+
+}
+
+.rows a {
+    margin-top: 20px;
+}
+.create {
+    background-color: rgb(224, 224, 224);
+    height: 400px;
+    width: 400px;
+    margin: 100px 200px;
+    padding: 50px 44px;
+    border-radius: 20px;
+
+}
+
+.create input{
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    font-size: 10px;
+    width: 300px;
+}
+
+.create label{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+.create button{
+    margin-top: 50px;
+    padding: 10px 120px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(17, 138, 106);
+    color: white;
+    margin-bottom: 20px;
+}
+.create button:hover{
+    background-color: rgb(71, 158, 135);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
